@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Advice-Quote/static/css/main.82a7b2c7.css",
+    "main.js": "/Advice-Quote/static/js/main.b5848f33.js",
+    "static/media/city.jpeg": "/Advice-Quote/static/media/city.29c6ba1e2d3a2e4820ef.jpeg",
+    "index.html": "/Advice-Quote/index.html",
+    "main.82a7b2c7.css.map": "/Advice-Quote/static/css/main.82a7b2c7.css.map",
+    "main.b5848f33.js.map": "/Advice-Quote/static/js/main.b5848f33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a7b2c7.css",
+    "static/js/main.b5848f33.js"
+  ]
+}
