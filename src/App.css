@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.app{
+    height: 100vh;
+    background: url('./images/city.jpeg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+.card{
+    background-color: whitesmoke;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 35px;
+    box-shadow: 5px 5px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: " Spartan", sans-serif;
+}
+.btn{
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    height: 160px;
+    width: 160px;
+    padding: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: antiquewhite;
+    box-shadow: 2px 2px;
+}
+
+@media only screen and (max-width:600px){
+    .card{
+        width: 80px;
+        height: 40%;
+    }
+}
